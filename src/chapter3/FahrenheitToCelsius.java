@@ -16,7 +16,7 @@ public class FahrenheitToCelsius {
 
         input_Far = scanner.nextDouble();
 
-        output_Cel = (5/9) * (input_Far - 32);
+        output_Cel =  ((double)5/9) * (input_Far - 32);
 
         System.out.println("Output temperature in celsius: " + output_Cel);
     }
