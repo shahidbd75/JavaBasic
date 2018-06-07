@@ -7,11 +7,12 @@ public class Temperature{
         tempCelcius =0.0;
         tempFarenheit =0.0;
     }
-    public void setFahrenheit(double temperature){
-        tempFarenheit = ((double) 9/5) * (temperature +32);
+    public void setFahrenheit(double tempInCelsius){
+
+        tempFarenheit = ((double) 9/5 * tempInCelsius +32);
     }
-    public void setCelsius(double temperature){
-        tempCelcius = ((double)5/9) * (temperature - 32);
+    public void setCelsius(double tempInFahrenheit){
+        tempCelcius = ((double)5/9) * (tempInFahrenheit - 32);
     }
 
     public double toCelsius() {

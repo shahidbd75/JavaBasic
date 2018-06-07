@@ -21,7 +21,7 @@ public class SalesInfo {
 
         totalPrice = unitWeight * numberOfUnits * COST_PER_POUND;
         totalPriceWithTax = totalPrice + totalPrice * (SALES_TAX/100);
-        
+
         System.out.println("Number of bags sold:\t" + numberOfUnits);
         System.out.println("Weight per bag:\t" + unitWeight + " lb");
         System.out.println("Price per pound:\t $" + COST_PER_POUND);

@@ -7,7 +7,7 @@ public class TempConvertion {
         temperature.setFahrenheit(100);
         System.out.println("Temperature in Farenheit: " + temperature.toFahrenheit());
 
-        temperature.setCelsius(237.6);
+        temperature.setCelsius(212);
         System.out.println("Temperature in Celcius: " + temperature.toCelsius());
     }
 }
