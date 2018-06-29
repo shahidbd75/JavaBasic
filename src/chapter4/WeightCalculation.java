@@ -17,6 +17,6 @@ public class WeightCalculation {
         height = scanner.nextDouble();
 
         DecimalFormat df=new DecimalFormat("0.00");
-        System.out.println("Recomended Weight is: " + df.format(ht.GetrecommendedWeight(age,height)) + " kg");
+        System.out.println("Recomended Weight is: " + df.format(ht.GetRecommendedWeight(age,height)) + " kg");
     }
 }
